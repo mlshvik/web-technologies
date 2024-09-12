@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    font-feature-settings: 'liga' off, 'clig' off;
+}
+body {
+    flex-shrink: 0;
+}
