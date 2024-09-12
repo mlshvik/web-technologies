@@ -1,0 +1,52 @@
+footer {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);;
+    padding: 50px 0;
+
+    nav{
+        display: flex;
+        align-items: center;
+        column-gap: 100px;
+
+        a {
+            text-decoration: none;
+            color:#fff;
+        }
+
+    }
+}
+
+.footer-dots {
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+}
+
+
+
+footer  a {
+    text-decoration: none;
+    color: #afd7ff;
+    margin-right: 20px;
+    font-size: 1.1em;
+    /* transition: color 0.3s ease; */
+}
+
+/* footer a:hover {
+    color: #ccc;
+} */
+
+.text_flex_profile{
+    padding-left: 15px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    ;}
+
+    .nickname{
+        width: 200px;
+        font-size: 6px;
+    }

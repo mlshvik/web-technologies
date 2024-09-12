@@ -1,0 +1,75 @@
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #fff;
+}
+
+.text-content {
+    max-width: 40%;
+}
+
+.custom-background {
+    background-image: url('css/matherials/plyamka.svg');
+    background-repeat: no-repeat;
+}
+
+
+.text-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 700;
+    width: 70%;
+    height: 87px;
+    flex-shrink: 0;
+}
+
+.fixed-text {
+    width: 310.619px;
+    height: 87px;
+    flex-shrink: 0;
+}
+
+.line{
+    width: 55px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: #000;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+
+.text-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+    width: 347.41px;
+    height: 107.334px;
+    flex-shrink: 0;
+}
+
+.download-btn {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #3366ff;
+    padding: 10px 30px;
+    color: #3366ff;
+    font-size: 1.2em;
+    border-radius: 25px;
+    display: inline-block;
+
+}
+
+.download-btn span {
+    margin-left: 10px;
+}
+
+.download-btn:hover {
+    background-color: #3366ff;
+    color: #fff;
+}
+
+.image-content img {
+    width: 600px;
+}
