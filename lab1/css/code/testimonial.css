@@ -1,0 +1,284 @@
+.testimonial-section {
+    display: flex;
+    background-color: #F3F8FE;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    padding-top: 140px;
+   
+}
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(#67C3F3, #5A98F2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    width: 1120px;
+    height: 425px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-right:20px ;
+    padding-left: 10px;
+}
+
+.second-line{
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: #fff;
+    margin: 0 auto
+    
+}
+.testimonial-section h2 {
+    font-size: 36px;
+    color:#fff;
+    padding: 70px 100px 26px 100px;
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+  
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 50px; */
+    padding-top: 50px;
+    
+}
+
+    
+.foto-profile {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 40%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 4px solid var(--white);
+    background-image: url(../../img/avatar.webp);
+    background-size: contain;
+    gap: 25px;
+    
+}
+.customer-info{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.customer-info h3 {
+    font-size: 20px;
+    margin-bottom: 7px;
+    color: #fff;
+}
+
+.customer-info p {
+    text-align: left;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 1px;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.90);
+    line-height: 1.8;
+    width: 410px;
+    height: 155.297px;
+    flex-shrink: 0;
+    text-align: left;
+    position:relative; 
+    top: 25px
+   
+    }
+
+.feedbacks {
+  display: flex;
+  align-items: center;
+  column-gap: 80px;
+  justify-content: space-between;
+  padding-bottom: 100px;
+
+  img {
+    height: 24px;
+    width: 31px;
+    width: 18%;
+    cursor: pointer;
+  }
+
+  & > div {
+    display: flex;
+    column-gap: 20px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5b9bf3;
+    cursor: pointer;
+  }
+
+  .dot:not(:first-child) {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 1200px) {
+  .testimonial-card {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .testimonial-text {
+    width: 100%;
+    font-size: 16px;
+    height: 155.297px;
+
+  }
+
+  .text_flex_profile {
+    padding-top: 30px;
+  }
+
+  .text_flex_profile h3 {
+    width: 250px;
+  }
+
+  .customer-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .foto-profile {
+    width: 30%;
+  }
+}
+@media (max-width: 992px) {
+  .testimonial-card {
+    width: 95%;
+  }
+
+  .testimonial-card h2 {
+    font-size: 24px;
+    padding: 40px 80px 26px;
+  }
+
+  .testimonial-text {
+    font-size: 15px;
+  }
+
+  .feedbacks {
+    gap: 20px;
+  }
+
+  .feedbacks img {
+    width: 25px;
+  }
+
+  .feedbacks .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .foto-profile {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .testimonial-section h2 {
+    /* padding: 30px 20px; */
+    text-align: center;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    height: 100%;
+  }
+
+  .text_flex_profile {
+    padding-top: 10px;
+  }
+
+  .text_flex_profile h3 {
+    width: 200px;
+  }
+  .foto-profile {
+    width: 20%;
+  }
+
+  .feedbacks {
+    gap: 10px;
+  }
+
+  .feedbacks img {
+    width: 20px;
+  }
+
+  .feedbacks .dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-section h2 {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .testimonial-card {
+    padding: 15px;
+  }
+
+  .customer-info p {
+    font-size: 13px;
+  }
+
+  .customer-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .profile {
+    padding-left: 55px;
+  }
+
+  .text_flex_profile {
+    padding-top: 10px;
+  }
+
+  .text_flex_profile h3 {
+    width: 150px;
+    font-size: 15px;
+  }
+
+  .foto-profile {
+    width: 20%;
+  }
+
+  .feedbacks img {
+    width: 18px;
+  }
+
+  .feedbacks .dot {
+    width: 6px;
+    height: 6px;
+  }
+}

@@ -1,0 +1,184 @@
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.text-content {
+    max-width: 40%;
+}
+
+.custom-background {
+    background-image: url('css/matherials/plyamka.svg');
+    background-repeat: no-repeat;
+}
+
+.text-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 700;
+    width: 70%;
+    height: 87px;
+    flex-shrink: 0;
+}
+
+.fixed-text {
+    width: 310.619px;
+    height: 87px;
+    flex-shrink: 0;
+}
+
+.line{
+    width: 55px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: #000;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+
+.text-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+    width: 347.41px;
+    height: 107.334px;
+    flex-shrink: 0;
+}
+
+.download-btn {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #3366ff;
+    padding: 10px 30px;
+    color: #3366ff;
+    font-size: 1.2em;
+    border-radius: 25px;
+    display: inline-block;
+
+}
+
+.download-btn span {
+    margin-left: 10px;
+}
+
+.download-btn:hover {
+    background-color: #3366ff;
+    color: #fff;
+}
+
+.image-content img {
+    width: 600px;
+}
+
+@media (max-width: 1200px) {
+    .main-section{
+        padding: 50px 70px;
+    }
+
+    .text-content h1 {
+        font-size: 2.2em;
+      }
+
+    .text-content p {
+    font-size: 1.1em;
+    width: 100%;
+    }
+    .image-content img {
+        width: 500px;
+    }  
+}
+
+@media (max-width: 992px) {
+    .main-section {
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 10%;
+    }
+  
+    .text-content {
+      max-width: 90%;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+  
+    .text-content h1 {
+      font-size: 2em;
+    }
+  
+    .text-content p {
+      font-size: 1em;
+      margin-bottom: 25px;
+      height: 100%;
+    }
+  
+    .download-btn {
+      padding: 8px 25px;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+  
+    .image-content img {
+      width: 400px;
+    }
+  }
+
+  
+@media (max-width: 768px) {
+  .main-section {
+    padding: 30px 5%;
+  }
+
+  .text-content h1 {
+    font-size: 1.8em;
+  }
+
+  .text-content p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    height: 100%;
+  }
+
+  .download-btn {
+    padding: 6px 20px;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+
+  .image-content img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+    .main-section {
+      padding: 20px 5%;
+    }
+  
+    .text-content {
+      max-width: 100%;
+    }
+  
+    .text-content h1 {
+      font-size: 1.5em;
+    }
+  
+    .text-content p {
+      font-size: 0.8em;
+      margin-bottom: 10px;
+      height: 100%;
+    }
+  
+    .download-btn {
+      padding: 5px 15px;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+  
+    .image-content img {
+      width: 100%;
+    }
+  }

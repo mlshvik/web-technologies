@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    font-feature-settings: 'liga' off, 'clig' off;
+}
+
+html{
+    overflow-X: hidden;
+}
+
+body {
+    flex-shrink: 0;
+    overflow: hidden;
+}
