@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Movies</title>
+</head>
+<body>
+    <h1 class="main-title">All Available Movies</h1>
+
+    <div class="main_movies">
+        <div class="elements">
+            <h1 class="title-movies">Movies List</h1>
+            <div class="buttons">
+                <button id="sortRating">Sort by Rating</button>
+                <button id="sortDuration">Sort by Duration</button>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by title or director">
+            <button id="searchButton">Search</button>
+            <button id="ResetMovies">Reset</button>
+        </div>
+    </div>
+
+    <h2>Movies:</h2>
+    <ul class="list-of-movies" id="moviesList"></ul>
+
+    <div class="total-reviews">
+        <button id="calculateButton">Calculate Total Duration</button>
+        <h2>Total Duration: <span id="totalReviews">0</span></h2>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
