@@ -1,0 +1,64 @@
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.picture {
+    margin: 10px 0 0 10px;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.fieldsRow {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.bottomRow {
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.buttonsRow {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons {
+    background-color: black;
+    border-style: none;
+    height: 40px;
+    width: 130px;
+
+}
+
+.buttons:active {
+    background-color: black;
+    color: #fff;
+}
+
+.buttons:hover {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.goBack {
+    text-decoration: none;
+    color: white;
+}
