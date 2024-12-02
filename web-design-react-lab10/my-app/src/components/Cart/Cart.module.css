@@ -1,0 +1,141 @@
+.CartPage{
+  max-width: 1140px;
+  padding-bottom: 769px;
+  text-align: center; /* Центрує всі елементи всередині контейнера */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; /* Центрує елементи по горизонталі та вертикалі */
+  height: 100vh; 
+}
+
+.fullCart{
+  max-width: 1140px;
+  padding-bottom: 769px;
+}
+
+.title{
+  font-size: 1.8rem; /* Збільшуємо шрифт */
+    font-weight: 600; /* Додаємо жирність */
+    color: #333; /* Трохи темніший для сучасного вигляду */
+    text-align: center;
+    margin: 20px 0; /* Додаємо відступи зверху та знизу */
+    font-family: 'Arial', sans-serif; /* Можна додати кастомний шрифт */
+}
+
+.paragraph{
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* background: linear-gradient(90deg, #5a3b2c, #8a5d3b); */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.emptyCartImage {
+  display: block; /* Блочний елемент для вирівнювання */
+  margin: auto; /* Вирівнюємо по центру з відступом зверху та знизу */
+  max-width: 300px; /* Обмежуємо максимальну ширину зображення */
+  height: auto; /* Пропорційне масштабування */
+  padding-bottom: 30px;
+}
+
+.customButton {
+  display: inline-block; /* Забезпечує відображення кнопки як блоку */
+  padding: 10px 20px; /* Відступи */
+  font-size: 1rem; /* Розмір шрифту */
+  text-align: center; /* Вирівнювання тексту */
+  background-color: #5c3b34; /* Фон */
+  border-color: #50332d; /* Колір бордера */
+  border-radius: 5px; /* Заокруглені кути */
+  transition: background-color 0.3s;
+  padding: 10px;
+  width: 70%;
+  margin-top: 20px;
+}
+
+
+
+/* Стилі для посилання всередині кнопки */
+.backButton {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+/* Стилі для кнопки "Continue" */
+.continueButton {
+  display: inline-block;
+  background-color: black;
+  border-color: black;
+  width: 140%;
+  margin-top: 20px;
+}
+
+
+
+.title{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.downButtons{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.amountButtons{
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.amountButtons:hover{
+    background-color: gray;
+    border-color: black;
+}
+
+.amountText{
+    margin-top: 30px;
+}
+
+.continueButton {
+    background-color: black;
+    border-color: black;
+}
+
+
+
+  
+/* Стилі для футера */
+footer {
+    position: relative; /* Забезпечує нормальне розташування */
+    bottom: 0;
+    width: 100%;
+    background-color: #5a3b2c; /* Колір вашого футера */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; /* Забезпечує, що футер залишатиметься внизу */
+  }
+  
+  /* Стиль для контейнера всієї сторінки */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Робить висоту сторінки завжди 100% вікна */
+    margin: 0; /* Прибирає стандартні відступи браузера */
+  }
+  
+  main {
+    flex: 1; /* Займає весь доступний простір між хедером і футером */
+  }
+  

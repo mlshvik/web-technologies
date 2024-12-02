@@ -1,0 +1,141 @@
+/* Контейнер модального вікна */
+.checkout-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1050;
+}
+
+.close-modal {
+  background-color: transparent; /* Якщо фон не потрібен */
+  border: none; /* Прибирає стандартні стилі кнопки */
+  color: black; /* Колір тексту або іконки */
+  font-size: 1rem; /* Розмір для кращої видимості */
+  cursor: pointer; 
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  position: relative; /* Зміна з fixed на relative для правильного позиціонування */
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px; /* Відступ від попередньої кнопки */
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+
+}
+
+/* Форма */
+form {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 50px 50px 50px;   
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 600px;
+}
+
+/* Заголовок */
+
+  /* font-size: 24px;
+  text-align: center;
+  color: #333;
+  position: sticky;
+  top: 0; 
+  z-index: auto;
+  margin-bottom: 30px;
+  background: white;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  width: 100%;  */
+
+/* Поля введення */
+input[type="text"], input[type="email"], select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+  border-color: #333;
+  outline: none;
+}
+
+/* Кнопка */
+.checkout-submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Зробимо затемнений фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050; /* Високий z-index для перекриття всіх елементів */
+  }
+  
+  /* Стилі для модального вмісту */
+  .modalContent {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Тінь для модального вікна */
+    text-align: center;
+    position: relative;
+    z-index: 1100; /* Ще вищий z-index для вмісту модального вікна */
+  }
+  
+
+  
+  .closeModal:hover {
+    background: #e60000;
+  }
+
+.checkout-submit-btn:hover {
+  background-color: #333;
+}
+
+/* Мобільна адаптація */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+  }
+
+  input[type="text"], input[type="email"] {
+    font-size: 14px;
+  }
+
+  .checkout-submit-btn {
+    font-size: 14px;
+  }
+}
