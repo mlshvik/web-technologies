@@ -1,0 +1,28 @@
+.cardHome {
+    margin-bottom: 2rem;
+    border-style: hidden;
+    width: 70%;
+}
+
+.cardImgTop {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cardText {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.showMore {
+    text-decoration: none;
+    color: white;
+}
