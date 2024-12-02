@@ -1,0 +1,18 @@
+.apply {
+    background-color: #333;
+    height: 40px;
+    width: 130px;
+    border-style: none;
+}
+
+.apply:hover {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.apply:active {
+    background-color: black;
+    color: #fff;
+}
+
